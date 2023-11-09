@@ -1,0 +1,31 @@
+img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border:  solid color green
+}
+.contenedor1 {
+    width: 100%;
+    
+}
+
+  
+.parte-izquierda {
+    float: left;
+    margin: 20px;
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    border: 10px solid;
+    border-color: aqua;
+    justify-content: left;
+}
+  
+.parte-derecha {
+    float:right
+        
+     
+}
+
+

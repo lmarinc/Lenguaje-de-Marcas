@@ -1,0 +1,89 @@
+#cabecera{
+    font-size: xx-large;
+}
+
+.logo{
+    width: 500px;
+    height: 150px;
+} 
+    
+.barra1{
+    display: flex;
+    justify-content:left;
+    align-items: center;
+
+
+   
+}
+.tabla1{
+    margin-left: 15px;
+    border: #006492 10px solid;
+    border-collapse: collapse;
+    height: 100px;
+    width: 100%;
+    font-size: 35px;
+    color: white;
+    background-color: #006492;
+    text-align:center;
+    
+}
+
+.foto2{
+    width: 100%;
+    height: 85%;
+    border: #006492 10px solid;
+    border-radius: 5px;
+} 
+
+
+.contenedor1 {
+    display: flex;
+    justify-content:baseline;
+  }
+  
+  .parte-izquierda {
+    margin: 20px;
+    width: 53%;
+       
+    
+  }
+  
+.parte-derecha {
+    margin-top :25px;
+    margin-left: 50px;
+    
+    
+    display: flex;
+    flex-direction: column;
+    width: 38%;
+    color:#006492;
+   
+    
+  }
+.derecha1{
+    border: 4px #006492 solid;
+    border-radius: 80px;
+    text-align: center;
+    font-size: 80px;
+    height: 30%;
+    padding: 40px;
+    padding-top: 100px;
+    
+    
+}
+.derecha2{
+    border: 4px #006492 solid;
+    border-radius: 40px;
+    text-align: center;
+    font-size: 55px;
+    margin-top: 30px;
+    height: 18%;
+    padding: 50px;
+    
+}
+
+  
+  
+
+
+

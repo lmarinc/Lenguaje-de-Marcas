@@ -1,0 +1,228 @@
+*{
+    box-sizing: border-box;
+
+}
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+main{
+    
+    width: 100%;
+    background-color: #f0f0f0; 
+    display: flex;
+    flex-direction: column;
+
+    
+
+}
+.padre1{
+    display: flex;
+    flex-direction: row;   
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border-bottom: 5px solid yellow;
+    background-color: white;
+
+    
+}
+.padre2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 21px;
+    padding: 10px;
+    
+        
+}
+
+.padre3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 10px;
+    flex-wrap: wrap;
+    padding-right: 10px;
+}
+.padre4 {
+    gap: 15px;
+    padding: 20px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap; /
+    
+
+}
+.cabecera1{
+    
+    height: 70px;
+    width: 10%;
+    min-width: 300px; 
+    flex: 1; 
+    
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    
+
+}
+
+
+.cabecera{
+    
+    height: 70px;
+    width: 10%;
+    min-width: 80px; /* Añadido un ancho mínimo para evitar que el contenedor sea demasiado estrecho */
+    flex: 1; /* Añadido para que los elementos ocupen el espacio disponible de manera equitativa */
+    display: flex;
+    flex-direction: row;
+    
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    font-size: 22px;
+    background-color: white;
+}  
+
+
+.indice{
+    
+    display: flex;
+    height: 50px;
+    width: 9%;
+    min-width: 90px; 
+    flex: 1; 
+    color: #0476e7;
+    background-color: #d3d3d3;
+    justify-content: center;
+    align-items: center;
+    transition: color 0.5s , background-color 0.5s;
+    
+   
+}
+
+.indice:hover{
+    background-color: #0476e7;
+    color: white;
+    
+}
+
+.ordenar1{
+    max-width: 100%;
+    min-width: 90px;
+    height: 50px;
+    width: 12vh;
+    color: #0476e7;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    justify-content: flex-end;
+    
+}
+.ordenar2{
+    max-width: 100%;
+    min-width: 90px;
+    background-color: white;
+    height: 50px;
+    width: 20vh;
+    color: #0476e7;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+.ordenar3{
+    max-width: 100%;
+    min-width: 90px;
+    background-color: aqua;
+    height: 50px;
+    width: 5vh;
+    color: white;
+    background-color: #0476e7;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    justify-content: center;   
+}
+.pelis {
+    display: flex;
+    gap: 5px;
+    background-color: white;
+    min-width: 250px;
+    flex: 1;
+    padding: 20px;
+    flex-direction: column;
+    color: #0476e7;
+    align-items: flex-start;
+}
+.pelis>img{
+    
+    max-width: 100%;
+    min-width: 220px;
+    height: 300px;
+    width: 33vh;
+    
+}
+
+
+#form {
+    width: 250px;
+    margin: 0 auto;
+    height: 50px;
+  }
+  
+  #form p {
+    text-align: center;
+  }
+  
+  #form label {
+    font-size: 20px;
+  }
+  
+  input[type="radio"] {
+    display: none;
+  }
+  
+  label {
+    color: grey;
+  }
+  
+  .clasificacion {
+    direction: rtl;
+    unicode-bidi: bidi-override;
+  }
+  
+  label:hover,
+  label:hover ~ label {
+    color: orange;
+  }
+  
+  input[type="radio"]:checked ~ label {
+    color: orange;
+  }
+
+.estrella>img{
+    height: 30px;
+    width: 30px;
+
+}
+.estrella{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    color: black;
+
+}
+

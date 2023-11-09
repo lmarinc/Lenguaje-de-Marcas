@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="1.css">
+</head>
+<body>
+    <h1>Mi HOTEL - Reserva on line</h1>
+    <form action="myhome.php" mothod="post">
+        <p>Nombre: <input type="text" name="Nombre" size="70" class="nombre"></p>
+        <p>Apellidos: <input type="text" name="Apellidos" size="70" class="Apellidos"></p>
+        <p>Teléfono: <input type="number" name="Teléfono" size="70" class ="telefono"></p>
+        <p>Email: <input type="email" name="Email" size="70" class ="email"></p>
+        <p>Numero de noches: <input type="text" name="noches" size="70" class="noches"></p>
+        <p>Fecha de entrada: <input type="date" name="fecha" size="70" class="fecha"></p>
+        <p>Tipo de habitación:
+            <input type="radio" name="habitacion" value="simple" class="habitacion"> Simple
+            <input type="radio" name="habitacion" value="doble" class="habitacion"> Doble
+            <input type="radio" name="habitacion" value="matrimonio" class="habitacion"> Matrimonio
+        </p>
+
+        <p>Extra: 
+            <input type="checkbox" name="desayuno" class="extra">Desayuno
+            <input type="checkbox" name="comida" class="extra1">Comida
+            <input type="checkbox" name="cena" class="extra1">Cena 
+            <input type="checkbox" name="cama" class="extra1">Cama Supletoria
+
+        <p>Comentarios</p>
+        <textarea rows="3" cols="40"></textarea>
+        <br>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Borrar" class="borrar">
+        
+
+
+
+    </form>
+
+</body>    
+</html>

@@ -1,0 +1,13 @@
+/*<!--#Si a la etiqueta div le ponemos "Class" empezamos por "punto" (.General)  , si empezara por "id" seria (#General)-->*/
+
+.General{
+    font-size: large;
+    color: red;
+
+}
+
+#pequeno{
+    font-size: 90px;
+    color:blueviolet;
+    
+}
